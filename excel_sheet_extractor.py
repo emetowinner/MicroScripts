@@ -14,7 +14,7 @@ for sheet_name in data_set.sheet_names:
         name = f'sheet-{sheet}.csv'
         df.to_csv(name)
         """
-        ## You can you contional statement to target specific sheet and ignore others. Eg: See below
+        ## You can use contionals to target specific sheet and ignore others. Eg: See below
             if sheet == 2:
                 name = 'NewCustomerList.csv'
                 df.to_csv(name)
